@@ -1,0 +1,34 @@
+Note
+
+Using Anaconda in a commercial setting? You may need to purchase a license to stay compliant with our Terms of Service. This can be accomplished through Anaconda Professional, Anaconda Server, or Anaconda Enterprise. If you have already purchased Professional, please proceed to the Authenticating Anaconda Professional section after completing your installation here.
+
+Haven’t purchased Anaconda Professional yet? Visit https://anaconda.cloud/register to get started.
+
+Confirm that Anaconda is installed and working with Anaconda Navigator or conda with the following instructions.
+
+Anaconda Navigator
+Anaconda Navigator is a graphical user interface (GUI) that is automatically installed with Anaconda. Navigator will open if the installation was successful. If Navigator does not open, review our help resources.
+
+Windows: Click Start, search for Anaconda Navigator, and click to open.
+macOS: Click Launchpad and select Anaconda Navigator. Or use Cmd+Space to open Spotlight Search and type “Navigator” to open the program.
+Linux: See next section.
+Conda
+If you prefer using a command line interface (CLI), use conda to verify the installation using Anaconda Prompt on Windows or the terminal on Linux and macOS.
+
+To open Anaconda Prompt:
+
+Windows: Click Start, search for Anaconda Prompt, and click to open.
+macOS: Use Cmd+Space to open Spotlight Search and type “Navigator” to open the program.
+Linux–CentOS: Open Applications > System Tools > terminal.
+Linux–Ubuntu: Open the Dash by clicking the Ubuntu icon, then type “terminal”.
+After opening Anaconda Prompt or the terminal, choose any of the following methods to verify:
+
+Enter conda list. If Anaconda is installed and working, this will display a list of installed packages and their versions.
+Enter the command python. This command runs the Python shell, also known as the REPL. If Anaconda is installed and working, the version information it displays when it starts up will include “Anaconda”. To exit the Python shell, enter the command quit().
+Open Anaconda Navigator with the command anaconda-navigator. If Anaconda is installed properly, Anaconda Navigator will open.
+Problems?
+If you encounter any errors, see the following resources:
+
+Navigator troubleshooting
+Troubleshooting guide for general troubleshooting
+Help and support for resources such as free community support and bug reports
